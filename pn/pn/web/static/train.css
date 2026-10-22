@@ -264,7 +264,7 @@ kbd.kbd-soft { height: 18px; min-width: 18px; padding: 0 4px; font-size: var(--t
   .train-table { --seat-w: 92px; }
 }
 
-/* Leaks tab (js/views/leaks_panel.js): top spots by top spots by importance priority. Each row is a button that
+/* Leaks tab (js/views/leaks_panel.js):  top spots by importance priority. Each row is a button that
    pins the spot as the drill (accent-soft fill, inset accent bar, accent swatch); the last hand's drill keeps a marker. */
 .leaks-side { display: flex; flex-direction: column; gap: 12px; padding-top: var(--s5); padding-bottom: var(--s5); }
 .leaks-side .head { display: flex; justify-content: space-between; align-items: baseline; gap: var(--s2); }
